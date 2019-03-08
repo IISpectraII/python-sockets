@@ -10,7 +10,7 @@ import socket
 sv_socket = socket.socket()
 
 #Pasar dirección de despliegue, tupla, 0 es la IP, 1 es el puerto
-sv_socket.bind(("localhost", 8083))
+sv_socket.bind(("localhost", 8080))
 
 #Escuchar solo 1 conexion
 sv_socket.listen(1)
